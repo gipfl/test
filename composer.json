@@ -1,0 +1,21 @@
+{
+    "name": "gipfl/test",
+    "description": "Tries to remove redundancy from our tests",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "gipfl\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Gelf",
+            "email": "thomas@gelf.net"
+        }
+    ],
+    "require": {
+	"php": ">=5.6",
+        "react/event-loop": ">=1.0"
+    }
+}
