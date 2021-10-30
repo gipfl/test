@@ -1,6 +1,6 @@
 <?php
 
-namespace gipfl\Stream;
+namespace gipfl\Test;
 
 use React\EventLoop\Factory;
 use React\EventLoop\LoopInterface;
